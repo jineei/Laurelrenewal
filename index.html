@@ -1,0 +1,593 @@
+<!doctype html>
+<html>
+<meta property="og:title" content="Laurel 계산기 케이스">
+<meta property="og:description" content="천연 가죽 계산기 케이스 구경하세요 ٩꒰｡•◡•｡꒱۶">
+<meta property="og:image" content="images/thumbnail2.jpg">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NWTNRXQ');
+  </script>
+  <!-- End Google Tag Manager -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script>
+    function myFunction() {
+      var demo = document.getElementById("demo");
+
+      if (demo.innerHTML == "자세히보기") {
+        demo.innerHTML = "닫기";
+      } else {
+        demo.innerHTML = "자세히보기";
+      };
+    }
+
+    function myFunction3() {
+      var demo3 = document.getElementById("demo3");
+
+      if (demo3.innerHTML == "자세히보기") {
+        demo3.innerHTML = "닫기";
+      } else {
+        demo3.innerHTML = "자세히보기";
+      };
+    }
+
+    function myFunction2() {
+      var demo2 = document.getElementById("demo2");
+
+      if (demo2.innerHTML == "자세히보기") {
+        demo2.innerHTML = "닫기";
+      } else {
+        demo2.innerHTML = "자세히보기";
+      };
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+    body {
+      text-align: left;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    /* div
+      border: 1px solid black
+    }*/
+
+    .transparent {
+      display: flex;
+      width: 100%;
+    }
+
+    .card-text {
+      font-size: 1.5rem;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+
+    .card-title {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .height {
+      height: 150px;
+    }
+
+    .flexx {
+      border: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }
+
+    .card-title {
+      font-size: 2rem;
+      margin-left: 10px;
+    }
+
+    .color-palette {
+      padding: 5px;
+    }
+
+    .cont1 {
+      padding: 10px;
+
+    }
+
+    .cont1 .logo {
+      width: 195px;
+      height: 130px;
+      margin: 0 auto;
+      float: none;
+      padding: 0 0 0 24px;
+    }
+
+    .cont1 .text1 {
+      font-size: large;
+      padding: 7px;
+    }
+
+    .cont1 .text2 {
+      padding: 7px;
+      font-size: large;
+    }
+
+    .cont1 .img-fluid {
+      padding: 10px;
+      width: 55%;
+    }
+
+    .cont2 .img-fluid {
+      margin: 8px;
+    }
+
+    .cont2 .card-group {
+      margin: 8px;
+    }
+
+    .cont2 .card-group .card-text {
+      font-size: small;
+      margin: 5px;
+    }
+
+    .cont3 {
+      margin: 0 auto;
+    }
+
+    .detailcut {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      width: 100%;
+    }
+
+    .cont4 .img-fluid {
+      width: 80%;
+      padding: 10px;
+    }
+
+    .mb-3 {
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: large;
+    }
+
+    h2 {
+      font-size: medium;
+    }
+
+    hr {
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .content-title {
+      font-size: large;
+    }
+
+    .card-footer {
+      background-color: white;
+      height: 15%;
+    }
+
+    .btn-primary {
+      font-size: 1.5rem;
+      background: #333;
+      color: #fff;
+      text-align: center;
+      color: white;
+      border-radius: 5px;
+      opacity: 0.8;
+      border-color: transparent;
+      padding: 15px 30px;
+      margin: 50px auto;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.6;
+      background: #c1e9c8;
+      color: #1d0033;
+      border-color: transparent;
+    }
+
+    .button {
+      width: 300px;
+      font-size: 1.5rem;
+      padding: 15px 30px;
+      background: #333;
+      color: #fff;
+      text-align: center;
+      color: white;
+      margin: 50px auto;
+      border-radius: 5px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      opacity: 0.6;
+      background: #c1e9c8;
+      color: #1d0033;
+    }
+
+    .ordertext {
+      margin-left: 80px;
+      margin-right: 80px;
+      font-size: 1.5rem;
+    }
+
+    .img-fluid {
+      text-align: center;
+    }
+
+    .contact {
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWTNRXQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <br><br>
+  <div class="cont0">
+    <div class="navbar">
+      <div>
+        <img class="logo" src="images/laurel logo.jpg" style="width:20%;float:left;margin-left:40px;">
+        <!-- <a href="http://bit.ly/389Tz52"><img src="images/blog.png" style="width:10%;float:right;margin-left:10px;margin-right:48px;"></a> -->
+        <a href="http://bit.ly/2RmZtJn"><img src="images/instagramlogo.png" style="width:10%;float:right;margin-left:10px;margin-right:48px;"></a>
+        <a href="http://bit.ly/2FOaGgF"><img src="images/kakaochannel.png" style="width:10%;float:right;"></a>
+        <a href="http://bit.ly/389Tz52"><img src="images/blog.png" style="width:10%;float:right;margin-left:10px;margin-right:10px;"></a>
+      </div>
+      <br>
+      <div class="content">
+
+        <!--상품소개-->
+        <div class="cont1">
+          <img src="images/coverimage.png" style="width:90%; display:block; margin-left:auto; margin-right:auto;"><br><br>
+          <p style="float:left; font-size:2.5rem;font-weight:700;line-height: 1.15em width:60%;margin-left:80px">당신의 모든 순간을<br>응원합니다.</p>
+          <p style="float:left; font-size:1.5rem;font-weight:400;letter-spacing: -1px;line-height: 1.2; width:60%;margin-left:80px">저희 제품이 꿈을 이뤄가는 과정에서도,<br>꿈을 이룬 가장 행복한 순간에도,<br>언제나 함께이길 바랍니다.</p><br><br><br><br><br>
+
+          <br><br><br><br><br>
+          <hr><br><br><br>
+          <div>
+            <p style="float:left;font-size:1.5rem; color:#2e2e2e; margin-bottom:0;margin-left:80px;width:40%;">당신이 찾던 단 하나의 케이스 -</p>
+            <p style="float:right;text-align: right;font-size:1.5rem; margin-bottom:0;margin-right:80px;width:30%;font-weight:bold;">18,000원</p>
+            <p style="float:left; font-size:3rem;font-weight:bold; width:60%;margin-bottom:30px;margin-left:80px">로렐 계산기 파우치</p>
+            <img src="images/allcolor1.jpg" style="display:block; margin-left:auto; margin-right:auto;width:85%;">
+
+            <img class="img-fluid" src="images/allcolor2.png" style="display:block; margin-left:auto; margin-right:auto; width:85%;">
+
+
+            <p style="padding: 0 6px 40px 6px;
+    text-align: left;
+    line-height: 1.75;
+    font-size:1.5rem;margin-left:100px;margin-right:100px;padding-left: 24px;
+    padding-right: 24px;">수험 기간 내내 사용해야하는 계산기.<br> 왜 계산기만을 위한 케이스는 없는걸까요?<br><br>
+              계산기에 딱 맞는 크기의 케이스는 없고 직접 만들자니 너무 비싸 망설였던 여러분을 위해 질 좋고 합리적인 계산기 전용 파우치, 로렐이 만들었습니다!
+              <br> CPA 공부를 시작하신 분, CPA 공부를 시작한 지인에게 응원의 선물을 보내고 싶은 분들께 추천드리는 제품입니다.
+              <br><br> '로렐 계산기 파우치'와 함께 성공적인 수험 생활, 회사 생활 하세요 :-) </p>
+          </div><br><br><br>
+          <hr><br><br><br>
+          <!--색상-->
+          <div class="cont2">
+            <div class="item1">
+              <!--전체컷-->
+              <p style="margin-top:50px;text-align:center;font-size:2.5rem;"><b><br>Color Check<br></b></p><br><br>
+
+              <!-- 피오니핑크 -->
+              <div class="card mb-3" style="max-width: 90%; ">
+                <div class="row no-gutters">
+                  <div class="col-md-12">
+                    <img src="images/peonypinkmain.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-12">
+                    <div style="text-align: center;" class="card-body flexx">
+                      <br><br>
+                      <h3><b>피오니핑크</b></h3><br>
+                      <p style="font-size:1.5rem;" class="card-text">
+                        피오니핑크는 봄/여름의 사랑스러운 느낌을 담은 색상입니다.<br>
+                        S/S 시즌에 어울리는 채도와 명도가 높은 예쁜 핑크 색상으로,<br>
+                        딸기 우유 색상이라고 생각해주시면 됩니다.<br><br>
+                        특히 핑크 계산기를 사용하고 계신 분들께 추천드리는 색상으로,<br>
+                        20 S/S 시즌의 메인 컬러입니다!<br>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <b id="demo" onclick="myFunction()">자세히보기</b>
+                        </a>
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <div class="collapse" id="collapseExample1" style="margin-left:46.396px;margin-right:46.406px;">
+                <div>
+                  <p style="font-size:2rem; margin-top:20px;text-align:center;"><b>활용 이미지</b></p>
+                  <img src="images/peonypink1.png" class="img-fluid" alt="Responsive image" style="width:100%;margin:0 auto;">
+                  <img src="images/peonypink2.png" class="img-fluid" alt="Responsive image" style="width:100%;margin-left:auto;margin-right:auto;margin-top:5px;">
+                  <p style="font-size:2rem; margin-top:50px;text-align:center;"><br><b>상세 이미지</b></p><br>
+                  <img class="detailcut" src="images/peonypink_detail.jpg">
+                </div>
+              </div>
+              <br><br><br>
+              <!-- 파우더블루 -->
+              <div class="card mb-3" style="max-width: 90%; ">
+                <div class="row no-gutters">
+                  <div class="col-md-12">
+                    <img src="images/powderbluemain.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-12">
+                    <div style="text-align: center;" class="card-body flexx">
+                      <br><br>
+                      <h3><b>파우더블루</b></h3><br>
+                      <p style="font-size:1.5rem;" class="card-text">
+                        청량한 느낌의 파우더 블루 색상입니다.<br>
+                        깨끗한 스카이 블루 색상에 약간의 흰끼가 섞인,<br>
+                        이름 그대로 파우더 블루 색상이에요.<br><br>
+                        블루 계산기에는 세트처럼, <br>
+                        블랙+실버 계산기에는 포인트로 잘 어울리는 색상입니다. <br>
+                        올 여름 파우더 블루 케이스로 기분 전환해보시는 건 어떨까요?<br>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <b id="demo2" onclick="myFunction2()">자세히보기</b>
+                        </a>
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <div class="collapse" id="collapseExample2" style="margin-left:46.396px;margin-right:46.406px;">
+                <div>
+                  <p style="font-size:2rem;margin-top:20px;text-align:center;"><b>활용 이미지</b></p>
+                  <img src="images/powderblue1.png" class="img-fluid" alt="Responsive image" style="width:100%;margin:0 auto;">
+                  <img src="images/powderblue2.png" class="img-fluid" alt="Responsive image" style="width:100%;margin-left:auto;margin-right:auto;margin-top:5px;">
+                  <p style="font-size:2rem; margin-top:50px;text-align:center;"><br><b>상세 이미지</b></p><br>
+                  <img class="detailcut" src="images/powderblue_detail.jpg">
+                </div>
+              </div>
+              <br><br><br>
+              <!-- 다크초콜릿 -->
+              <div class="card mb-3" style="max-width: 90%; ">
+                <div class="row no-gutters">
+                  <div class="col-md-12">
+                    <img src="images/chocomain.png" class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-12">
+                    <div style="text-align: center;" class="card-body flexx">
+                      <br><br>
+                      <h3><b>다크초콜릿</b></h3><br>
+                      <p style="font-size:1.5rem;" class="card-text">
+                        시크한 느낌의 다크초콜릿 색상입니다.<br>
+                        짙은 갈색에 검정을 한방울 흘린 듯한 컬러이며,<br>천연 가죽의 클래식한 매력을 가장 잘 담고 있는 색상입니다.<br><br>
+                        현회계사분들이 쓰시기 좋은 컬러일 것 같아, <br>선물을 고려하고 계신다면 추천드려요!!<br>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="#collapseExample2">
+                          <b id="demo3" onclick="myFunction3()">자세히보기</b>
+                        </a>
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br><br>
+              <div class="collapse" id="collapseExample3" style="margin-left:46.396px;margin-right:46.406px;">
+                <div>
+                  <p style="font-size:2rem; margin-top:20px;text-align:center;"><b>활용 이미지</b></p>
+                  <img src="images/choco1.png" class="img-fluid" alt="Responsive image" style="width:100%;margin:0 auto;">
+                  <img src="images/choco2.png" class="img-fluid" alt="Responsive image" style="width:100%;margin-left:auto;margin-right:auto;margin-top:5px;">
+                  <p style="font-size:2rem; margin-top:50px;text-align:center;"><br><b>상세이미지</b></p><br>
+                  <img class="detailcut" src="images/choco_detail.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <br><br><br>
+        <hr><br><br><br>
+        <!--디테일-->
+        <div class="cont3">
+          <h3 class="content-title" style="margin-top:50px;text-align:center;font-size:2.5rem;"><b><br>Detail Check<br></b></h3><br><br>
+          <img src="images/alldetail.jpg" alt="Responsive image" style="width:90%;display:block; margin-left:auto; margin-right:auto; "><br><br><br>
+          <div class="card mb-3" style="max-width: 90%; ">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="images/detail3.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body flexx">
+                  <h5 class="card-title">Point 1) 입구 보강재, 곡선형 마감</h5>
+                  <p class="card-text">
+                    입구에 보강재를 덧대어 장기간 사용시 늘어남을 최소화했습니다.
+                    또한 곡선형 마감으로 세련된 분위기와 함께 넣고 뺄 때 편리하도록 디자인되었습니다.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 90%;">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body flexx">
+                  <h5 class="card-title">Point 2) 천연가죽 사용</h5>
+                  <p class="card-text">
+                    외피로 사용한 천연 소가죽은 합성 피혁에 비해 스크래치에 강하고 내구성이 뛰어납니다.
+                    또한 몇 달만 지나도 합성면이 벗겨져 들뜸이 있는 합성피혁과 달리,
+                    오랫동안 변치 않고 멋스럽게 사용하실 수 있습니다.
+                  </p>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/detail1.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 90%;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="images/detail2.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body flexx">
+                  <h5 class="card-title">Point 3) 슬림한 옆라인</h5>
+                  <p class="card-text">
+                    가름솔 공법으로 경사진 계산기의 측면을 완벽히 감쌀 수 있도록 만들어졌습니다
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 90%;">
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                <div class="card-body flexx">
+                  <h5 class="card-title">Point 4) 고급 벨벳 안감 사용</h5>
+                  <p class="card-text">
+                    내피로 사용된 고급 벨벳 원단은 적당한 쿠션감과 함께 계산기 보호를 도와줍니다.<br><br>
+                    *어두운 갈색의 안감이었던 지난 시즌과 달리, 이번 시즌에는 NEW 가죽 컬러와 어울리는
+                    회색 안감으로 변경되었습니다.
+                  </p>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img src="images/detail4.jpg" class="card-img" alt="...">
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="package">
+            <p style="margin-top:50px;text-align:center;font-size:2rem;">++ Plus</P>
+            <img src="images/package.jpg" style="width:90%;display:block; margin-left:auto; margin-right:auto;"><br><br>
+            <p style="padding: 0 6px 40px 6px;
+    text-align: left;
+    line-height: 1.75;
+    font-size:1.5rem;margin-left:80px;margin-right:80px;padding-left: 24px;
+    padding-right: 24px;">
+              로렐의 사심이 담긴, 마지막 디테일입니다 :-)<br>
+              구매하신 모든 고객님들께 상단 사진처럼 예쁜 포장을 해드리고 있으니 참고 부탁드려요.<br>
+              예쁜 포장으로 제품을 받은 고객님들이 하루를 기분 좋게 시작하셨으면 좋겠다는 마음에 준비해보았어요!<br><br>
+              소중한 분들께 선물하고 싶으신 고객님들은 <br>더욱 더 만족하실거라 생각합니다.
+            </p>
+          </div>
+          <!--리뷰-->
+          <br><br><br>
+          <hr><br><br><br>
+          <div class="cont5">
+            <h3 class="content-title" style="margin-top:50px;text-align:center;font-size:2.5rem;"><b><br>Review Check<br></b></h3><br><br>
+            <!--<img src="images/review1.png" style="display:block; margin-left:auto; margin-right:auto; width:90%;">-->
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" style="max-width: 80%; margin:0 auto">
+                <div class="carousel-item active">
+                  <img src="images/review1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/review2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/review3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/review4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/review5.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <br><br><br><br><br>
+          </div>
+          <br><br><br>
+          <hr><br><br><br>
+          <!--주문방법-->
+          <div class="cont4">
+            <h3 class="content-title" style="text-align:center;font-size:2.5rem;"><b><br>Order Check<br></b></h3><br><br>
+            <img src="images/process.png" class="img-fluid" alt="Responsive image" style="display:block; margin-left:auto; margin-right:auto; width:90%;"><br><br>
+            <div class="ordertext">
+              <br>
+              <p style="font-size:2rem;"><b>1.주문서작성</b></p>
+              <p><b>110-512-031899 신한 정*은</b>으로 입금 후,주문서를 작성해주세요!<br><br>
+                **가격 안내**<br>
+                18,000원<br><br>
+                **배송비 안내**<br>
+                서울/경기 3,000원<br>
+                서울/경기, 제주 이외 타권역 3,500원<br>
+                제주 6,000원<br><br>
+                <!--→ 주문서 링크 <a href="http://bit.ly/2uOaOKM"><b>http://bit.ly/2uOaOKM</b></a><br><br></p>
+          -->
+                <p style="font-size:2rem;"><b>2.입금확인</b>
+                  <p>
+                    <p>입금이 완료되면, 주문서에 작성해주신 연락처로 주문 확인 연락을 드립니다.<br>
+                      직접수령/발송 역시 함께 안내드리니 참고해주세요!<br>
+                      추가로 궁금한 사항이 있으실 경우, 카카오톡 플러스 친구로 연락주시면 빠른 처리 도와드리겠습니다.<br>
+                      → 카카오톡 플러스 친구 <a href="http://bit.ly/2FOaGgF"><b>http://bit.ly/2FOaGgF</b></a><br><br></p>
+                    <p style="font-size:2rem;"><b>3.발송</b></p>
+                    <p>상품은 주문 후 영업일 기준 1-2일내로 발송됩니다.<br>
+                      발송 완료 후 다시 한번 안내 문자를 드립니다.<br><br></p>
+                    <p style="font-size:2rem;"><b>4.수령</b></p>
+                    <p>서강대 내 직접 수령의 경우, 문자를 통해 수령 안내를 드리고 있습니다.<br>
+                      택배의 경우 발송 후 택배사 사정에 따라 영업일 기준 2-3일이내로 수령하실 수 있습니다.<br><br></p>
+                    <p style="font-size:2rem;"><b>5.♡리뷰♡</b></p>
+                    <p>상품 수령 후 만족스러우셨다면, 카카오톡 플러스 친구/인스타그램을 통해 리뷰를 공유해주세요♡<br>
+                      리뷰는 저희는 물론 다음 고객님들께도 큰 도움이 된답니다:-)<br><br><br></p>
+            </div>
+            <div class="contact">
+
+              <a href="http://bit.ly/2RmZtJn"><img src="images/instagramlogo.png" style="width:7%;float:right;margin-left:10px;margin-right:48px;"></a>
+              <a href="http://bit.ly/2FOaGgF"><img src="images/kakaochannel.png" style="width:7%;float:right;"></a>
+              <a href="http://bit.ly/389Tz52"><img src="images/blog.png" style="width:7%;float:right;margin-left:10px;margin-right:10px;"></a>
+              <p style="color:#2e2e2e;float:right;margin-right:30px;">Contact Us</p>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+          </div>
+        </div>
+      </div>
+      <!--container 끝-->
+      <a href="http://bit.ly/2uOaOKM" <div class="button"><b>주문하기</b>
+    </div></a>
+</body>
+
+</html>
